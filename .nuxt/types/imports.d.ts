@@ -127,7 +127,6 @@ declare global {
   const useModel: typeof import('../../node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue')['useModel']
   const useNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.15.4_@parcel+watcher@2.5.6_cac@6.7.14_db0@0.3.4_ioredis@5.10.0_magicast@0.5.2_ro_69727c57c7aa6c222a75b15ffa761d5d/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/.pnpm/nuxt@3.15.4_@parcel+watcher@2.5.6_cac@6.7.14_db0@0.3.4_ioredis@5.10.0_magicast@0.5.2_ro_69727c57c7aa6c222a75b15ffa761d5d/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']
-  const useNuxtDevTools: typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.7.0_rollup@4.59.0_vite@6.4.1_jiti@2.6.1_terser@5.46.1_yaml@2.8.2__vue@3.5.30_typescript@5.9.3_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']
   const useOrQuotation: typeof import('../../composables/useOrQuotation')['useOrQuotation']
   const useOrStock: typeof import('../../composables/useOrStock')['useOrStock']
   const usePinia: typeof import('../../node_modules/.pnpm/@pinia+nuxt@0.5.5_magicast@0.5.2_typescript@5.9.3_vue@3.5.30_typescript@5.9.3_/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']
@@ -332,7 +331,6 @@ declare module 'vue' {
     readonly useModel: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.5.30_typescript@5.9.3/node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.15.4_@parcel+watcher@2.5.6_cac@6.7.14_db0@0.3.4_ioredis@5.10.0_magicast@0.5.2_ro_69727c57c7aa6c222a75b15ffa761d5d/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.15.4_@parcel+watcher@2.5.6_cac@6.7.14_db0@0.3.4_ioredis@5.10.0_magicast@0.5.2_ro_69727c57c7aa6c222a75b15ffa761d5d/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']>
-    readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.7.0_rollup@4.59.0_vite@6.4.1_jiti@2.6.1_terser@5.46.1_yaml@2.8.2__vue@3.5.30_typescript@5.9.3_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly useOrQuotation: UnwrapRef<typeof import('../../composables/useOrQuotation')['useOrQuotation']>
     readonly useOrStock: UnwrapRef<typeof import('../../composables/useOrStock')['useOrStock']>
     readonly usePinia: UnwrapRef<typeof import('../../node_modules/.pnpm/@pinia+nuxt@0.5.5_magicast@0.5.2_typescript@5.9.3_vue@3.5.30_typescript@5.9.3_/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']>
